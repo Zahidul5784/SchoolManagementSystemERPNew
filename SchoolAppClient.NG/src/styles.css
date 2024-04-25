@@ -1,0 +1,54 @@
+@import '../node_modules/@syncfusion/ej2-base/styles/material.css';
+@import '../node_modules/@syncfusion/ej2-inputs/styles/material.css';
+@import '../node_modules/@syncfusion/ej2-angular-inputs/styles/material.css';
+
+@import '../node_modules/@syncfusion/ej2-buttons/styles/material.css';
+@import '../node_modules/@syncfusion/ej2-popups/styles/material.css';
+@import '../node_modules/@syncfusion/ej2-angular-notifications/styles/material.css';
+
+body > div {
+  display: none !important;
+}
+
+.hidden {
+  display: none;
+}
+
+.center-element {
+  margin: 20px auto;
+}
+
+.center {
+  justify-content: center;
+  text-align: center;
+}
+
+.e-float-input.e-control-wrapper .e-float-text::after {
+  content: "*";
+  color: red;
+}
+.short-input {
+  width: 200px;
+  Adjust the width as needed
+}
+
+.confirmation-popup {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  height: 100%;
+  z-index: 9999;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.confirmation-dialog {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
